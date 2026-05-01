@@ -29,9 +29,8 @@ jobs:
           rss-feed: https://www.reddit.com/r/nosotrosoelcaos/.rss
           # Template of status posted to Bluesky (Handlebars)
           template: |
-            {{item.title}}
-            {{item.media:thumbnail.url}}
-            {{item.link}}
+          #  {{item.title}}
+          #  {{item.link}}
           # This is your service URL (optional)
           service-url: https://bsky.social
           # This is the Bluesky username (example: username.bsky.social)
